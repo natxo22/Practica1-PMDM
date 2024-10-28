@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practica 1</string>
+    <string name="Wikipedia">Ver en Wikipedia</string>
+    <string name="card_text1">Físico teórico alemán que desarrolló la teoría de la relatividad, cambiando la forma en que entendemos el espacio, el tiempo y la energía.</string>
+    <string name="card_text2">Científica polaca-francesa pionera en el estudio de la radiactividad, primera mujer en recibir un Premio Nobel y única en ganar en dos campos distintos: Física y Química.</string>
+    <string name="card_text3">Líder sudafricano que luchó contra el apartheid y se convirtió en el primer presidente negro de Sudáfrica, simbolizando la lucha por la igualdad y los derechos humanos.</string>
+    <string name="card_text4">Pintora mexicana conocida por sus emotivos autorretratos y su estilo único, que explora la identidad, el dolor y la experiencia femenina.</string>
+    <string name="card_title1">Albert Einstein</string>
+    <string name="card_title2">Marie Curie</string>
+    <string name="card_title3">Nelson Mandela</string>
+    <string name="card_title4">Frida Kahlo</string>
+</resources>
