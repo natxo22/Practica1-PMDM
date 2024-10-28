@@ -1,15 +1,11 @@
 package com.example.myapplicationv34
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
 import com.example.practica1.R
 
@@ -43,6 +39,13 @@ class MainActivity : AppCompatActivity() {
             findViewById<ImageView>(R.id.imagen4)
         )
 
+        //Carga de Cards
+        CargarCards(urls_img,imageViews,buttons,urls_buttonlinks)
+
+    }
+    fun CargarCards(urls_img: ArrayList<String>, imageViews: ArrayList<ImageView>,
+                    buttons: ArrayList<Button>, urls_buttonlinks: ArrayList<String>,) {
+
         for (i in 0..3) {
             Glide.with(this)
                 .load(urls_img[i])
@@ -53,6 +56,5 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-
     }
 }
