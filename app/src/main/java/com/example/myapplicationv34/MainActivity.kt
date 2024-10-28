@@ -67,6 +67,5 @@ class MainActivity : AppCompatActivity() {
             val intent4 = Intent(Intent.ACTION_VIEW, Uri.parse(url4))
             startActivity(intent4)
         }
-        val a = 12
     }
 }
